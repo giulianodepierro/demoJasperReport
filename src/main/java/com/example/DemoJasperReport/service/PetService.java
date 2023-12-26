@@ -1,6 +1,6 @@
-package com.example.demoJasperReport.service;
+package com.example.DemoJasperReport.service;
 
-import com.example.demoJasperReport.model.Pet;
+import com.example.DemoJasperReport.model.Pet;
 import net.sf.jasperreports.engine.JRException;
 
 import java.io.FileNotFoundException;

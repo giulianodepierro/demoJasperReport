@@ -1,6 +1,6 @@
-package com.example.demoJasperReport.util;
+package com.example.DemoJasperReport.util;
 
-import com.example.demoJasperReport.model.Pet;
+import com.example.DemoJasperReport.model.Pet;
 import net.sf.jasperreports.engine.*;
 import net.sf.jasperreports.engine.data.JRBeanCollectionDataSource;
 import net.sf.jasperreports.engine.export.JRXlsExporter;

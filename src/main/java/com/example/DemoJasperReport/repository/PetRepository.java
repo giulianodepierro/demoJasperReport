@@ -1,6 +1,6 @@
-package com.example.demoJasperReport.repository;
+package com.example.DemoJasperReport.repository;
 
-import com.example.demoJasperReport.model.Pet;
+import com.example.DemoJasperReport.model.Pet;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

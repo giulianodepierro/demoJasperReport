@@ -1,7 +1,7 @@
-package com.example.demoJasperReport.controller;
+package com.example.DemoJasperReport.controller;
 
-import com.example.demoJasperReport.model.Pet;
-import com.example.demoJasperReport.service.PetService;
+import com.example.DemoJasperReport.model.Pet;
+import com.example.DemoJasperReport.service.PetService;
 import net.sf.jasperreports.engine.JRException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.*;
@@ -11,7 +11,8 @@ import java.io.FileNotFoundException;
 
 @RestController
 @RequestMapping("/pets")
-public class PetController {
+public class
+PetController {
 
     @Autowired
     private PetService petService;

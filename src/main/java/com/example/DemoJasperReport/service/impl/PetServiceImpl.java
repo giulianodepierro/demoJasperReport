@@ -1,9 +1,9 @@
-package com.example.demoJasperReport.service.impl;
+package com.example.DemoJasperReport.service.impl;
 
-import com.example.demoJasperReport.model.Pet;
-import com.example.demoJasperReport.repository.PetRepository;
-import com.example.demoJasperReport.service.PetService;
-import com.example.demoJasperReport.util.PetReportGenerator;
+import com.example.DemoJasperReport.model.Pet;
+import com.example.DemoJasperReport.repository.PetRepository;
+import com.example.DemoJasperReport.service.PetService;
+import com.example.DemoJasperReport.util.PetReportGenerator;
 import net.sf.jasperreports.engine.JRException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -46,7 +46,7 @@ public class PetServiceImpl implements PetService {
     }
 
     @Override
-    public byte[] exportXls() throws JRException, FileNotFoundException {
+    public byte[] exportXls() throws JRExcept, FileNotFoundException {
         return petReportGenerator.exportToXls(petRepository.findAll());
     }
 }
